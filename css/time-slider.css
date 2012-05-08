@@ -1,0 +1,64 @@
+.label {
+    font-family: verdana;
+    font-size:0.8em;
+    padding:10px 5px;
+}
+.slider {
+	width:960px;
+    padding:20px;
+}
+.slider .ui-slider-handle {
+    position:absolute; 
+	z-index:2; 
+	cursor:default;
+	1border:1px solid #f00;
+	width:15px;
+	height:28px;
+	1margin-left:0;
+	background-image: url(../img/slider-arrow.png); 
+	background-position:-5px -5px;
+}
+.slider .ui-slider-handle:hover {
+	cursor:default;
+}
+
+
+
+div.tickmarks {
+	height:10px;
+	margin-left:-10px;
+	margin-bottom:3px;
+}
+
+div.tick {
+	position:relative;
+	float:left;
+	display:inline-block;
+	vertical-align:baseline;
+	width:10px;
+	border-right:1px solid #a9a9a9;
+	1border-bottom:1px solid #a9a9a9;
+}
+
+div.tick-lg {
+	height:10px;
+}
+
+div.tick-sm {
+	height:5px;
+	margin-top:5px;
+}
+
+div#x {
+	position:absolute; 
+	z-index:2; 
+	cursor:default;
+	1border:1px solid #f00;
+	width:15px;
+	height:28px;
+	background-image: url(../img/slider-arrow.png); 
+	background-position:-5px -5px;
+}
+	
+	
+}
