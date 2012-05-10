@@ -1,0 +1,32 @@
+/* time-block.css */
+
+body {
+	
+}
+
+div.timeblock-day {
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:15px;
+}
+div.timeblock-day:hover {
+	cursor:pointer;
+}
+
+div.timeblock {
+	position:relative;
+	float:left;
+	border-top:1px solid #ababab;
+	border-bottom:1px solid #ababab;
+	border-left:1px solid #ababab;
+	width:10px;
+	height:10px;
+}
+div.timeblock-right-cap {
+	border-right:1px solid #ababab;
+}
+
+div.timeblock-selected {
+	background-color:#8170D8;
+}

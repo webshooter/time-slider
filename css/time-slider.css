@@ -4,7 +4,7 @@
     padding:10px 5px;
 }
 .slider {
-	width:960px;
+	width:962px;
     padding:20px;
 }
 .slider .ui-slider-handle {
@@ -15,7 +15,7 @@
 	width:15px;
 	height:28px;
 	1margin-left:0;
-	background-image: url(../img/slider-arrow.png); 
+	background-image: url(../img/slider-btn.png); 
 	background-position:-5px -5px;
 }
 .slider .ui-slider-handle:hover {
@@ -26,7 +26,7 @@
 
 div.tickmarks {
 	height:10px;
-	margin-left:-10px;
+	margin-left:-9.5px;
 	margin-bottom:3px;
 }
 
@@ -56,7 +56,7 @@ div#x {
 	1border:1px solid #f00;
 	width:15px;
 	height:28px;
-	background-image: url(../img/slider-arrow.png); 
+	background-image: url(../img/slider-btn.png); 
 	background-position:-5px -5px;
 }
 	

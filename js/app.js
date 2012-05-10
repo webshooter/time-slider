@@ -9,7 +9,7 @@ function drawTickmarks($day) {
 	var $tickmarks = $day.find(".tickmarks");
 	var $timeslider = $day.find("#timeslider");
 	var interval = (parseInt($timeslider.width())/96) - 1;
-	
+	console.log($timeslider.width());
 	var html = "<div class=\"tick tick-lg\"></div>"
 	var hourHtml = "<div class=\"tick tick-sm\"></div><div class=\"tick tick-sm\"></div><div class=\"tick tick-sm\"></div><div class=\"tick tick-lg\"></div>"
 	for (var i=0; i<24; i++) {
